@@ -16,5 +16,14 @@ public class Program
 
         Console.WriteLine("Conversão de double para int");
         Console.WriteLine($"Double: {valorDouble}, Int convertido: {valorConvertInt}, String convertida: {textValorConvertidoInt}");
+
+        string textDecimal = "12.75";
+        double decimalString = double.Parse(textDecimal);
+        Console.WriteLine($"String: {textDecimal}, Double: {decimalString}");
+        string teste = decimalString.ToString();
+
+        char caractere = 'A';
+        int codigoAscii = (int) caractere;
+        Console.WriteLine($"Char: {caractere}, Ascii{codigoAscii}");
     }
 }
