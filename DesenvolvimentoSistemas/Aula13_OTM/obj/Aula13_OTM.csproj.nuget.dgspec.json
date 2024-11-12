@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/DesSIAvancadoI/Aula13_OTM/Aula13_OTM.csproj": {}
+    "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula13_OTM/Aula13_OTM.csproj": {}
   },
   "projects": {
-    "/workspaces/DesSIAvancadoI/Aula13_OTM/Aula13_OTM.csproj": {
+    "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula13_OTM/Aula13_OTM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/DesSIAvancadoI/Aula13_OTM/Aula13_OTM.csproj",
+        "projectUniqueName": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula13_OTM/Aula13_OTM.csproj",
         "projectName": "Aula13_OTM",
-        "projectPath": "/workspaces/DesSIAvancadoI/Aula13_OTM/Aula13_OTM.csproj",
+        "projectPath": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula13_OTM/Aula13_OTM.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/DesSIAvancadoI/Aula13_OTM/obj/",
+        "outputPath": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula13_OTM/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/DesSIAvancadoI/aulaConteiner/aulaConteiner.csproj",
+      "projectUniqueName": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/aulaConteiner/aulaConteiner.csproj",
       "projectName": "aulaConteiner",
-      "projectPath": "/workspaces/DesSIAvancadoI/aulaConteiner/aulaConteiner.csproj",
+      "projectPath": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/aulaConteiner/aulaConteiner.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/DesSIAvancadoI/aulaConteiner/obj/",
+      "outputPath": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/aulaConteiner/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/DesSIAvancadoI/Aula08/Aula08.csproj": {}
+    "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula08/Aula08.csproj": {}
   },
   "projects": {
-    "/workspaces/DesSIAvancadoI/Aula08/Aula08.csproj": {
+    "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula08/Aula08.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/DesSIAvancadoI/Aula08/Aula08.csproj",
+        "projectUniqueName": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula08/Aula08.csproj",
         "projectName": "Aula08",
-        "projectPath": "/workspaces/DesSIAvancadoI/Aula08/Aula08.csproj",
+        "projectPath": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula08/Aula08.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/DesSIAvancadoI/Aula08/obj/",
+        "outputPath": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula08/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"

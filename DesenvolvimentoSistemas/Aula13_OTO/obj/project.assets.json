@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/DesSIAvancadoI/Aula13_OTO/Aula13_OTO.csproj",
+      "projectUniqueName": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula13_OTO/Aula13_OTO.csproj",
       "projectName": "Aula13_OTO",
-      "projectPath": "/workspaces/DesSIAvancadoI/Aula13_OTO/Aula13_OTO.csproj",
+      "projectPath": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula13_OTO/Aula13_OTO.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/DesSIAvancadoI/Aula13_OTO/obj/",
+      "outputPath": "/workspaces/DesSIAvancadoI/DesenvolvimentoSistemas/Aula13_OTO/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
