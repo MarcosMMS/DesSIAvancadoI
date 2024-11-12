@@ -11,12 +11,12 @@ namespace Prova02{
                 context.Database.EnsureDeleted();
                 context.Database.EnsureCreated();
 
-                var aluno1 = new Aluno { Nome = "Gustavo Gonçalves" };
-                var aluno2 = new Aluno { Nome = "Marcos Moreira" };
+                var aluno1 = new Aluno { Nome = "Gustavo Gonçalves", Matricula = "100", Idade = 20};
+                var aluno2 = new Aluno { Nome = "Marcos Moreira", Matricula = "100", Idade = 20 };
                 
 
-                var disciplina1 = new Disciplina { NomeDisciplina = "Redes" };
-                var disciplina2 = new Disciplina { NomeDisciplina = "Analise" };
+                var disciplina1 = new Disciplina { NomeDisciplina = "Redes", CodigoDisciplina =  02};
+                var disciplina2 = new Disciplina { NomeDisciplina = "Analise", CodigoDisciplina =  01 };
                 
 
                 aluno1.Disciplinas.Add(disciplina1);
@@ -24,7 +24,11 @@ namespace Prova02{
 
                 disciplina1.Alunos.Add(aluno1);
                 disciplina2.Alunos.Add(aluno2);
-                
+
+                context.Alunos.AddRange(aluno1, aluno2);
+
+                context.Disciplinas.AddRange(disciplina1, disciplina2);
+
                 context.SaveChanges();
 
                 // Consultando
@@ -37,6 +41,7 @@ namespace Prova02{
                         Console.WriteLine($"Disciplina: {disciplina.NomeDisciplina}");
                     }
                 }
+
 
                 var disciplinas = context.Disciplinas.Include(a => a.Alunos).ToList();
                 foreach (var disciplina in disciplinas)

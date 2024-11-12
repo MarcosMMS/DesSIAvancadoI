@@ -3,5 +3,5 @@ public class Aluno {
     public string Nome { get; set; }
     public string Matricula { get; set; }
     public int Idade { get; set; }
-    public IList<Disciplina> Disciplinas { get; set; }
+    public List<Disciplina> Disciplinas { get; set; } = new List<Disciplina>();
 }
