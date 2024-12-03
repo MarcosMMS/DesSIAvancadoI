@@ -1,0 +1,29 @@
+@page
+@model aula16_Razor.Pages.Pessoas.IndexModel
+@{
+    ViewData["Title"] = "Pessoas Cadastradas";
+}
+
+<h2>Pessoas Cadastradas</h2>
+
+<a asp-page="Create" class="btn btn-primary mb-3">Novo Cadastro</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pessoa in Model.Pessoas)
+        {
+            <tr>
+                <td>@pessoa.Nome</td>
+                <td>@pessoa.Idade</td>
+                <td>@pessoa.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
